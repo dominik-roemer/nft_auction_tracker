@@ -1,0 +1,14 @@
+{
+  "1": {
+    "name": "invisible friends",
+    "url": "https://opensea.io/collection/invisiblefriends",
+    "thresh_time": 9000,
+    "thresh_percentage": 100
+  },
+  "2": {
+    "name": "bored apes",
+    "url": "https://opensea.io/collection/boredapeyachtclub",
+    "thresh_time": 9000,
+    "thresh_percentage": 100
+  }
+}
