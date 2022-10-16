@@ -1,0 +1,7 @@
+{
+  "continue": 1,
+  "receiver": ["put-your-target-mail-here@mail.com"],
+  "administrator": ["this-is-used-for-debugging@gmail.com"],
+  "hrs_to_reset": 12,
+  "reset_status": 1
+}

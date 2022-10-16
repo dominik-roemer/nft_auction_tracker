@@ -9,7 +9,7 @@ class AuctionAlarm:
         self.name = auction_name
         self.url = url
         self.asset_info_list = []
-        self.webdriver_path = r'C:\Users\Administrator\Desktop\chromedriver.exe'
+        self.webdriver_path = r'......' # path to the google chrome webdriver.exe
         self.driver = None
         self.auction_info = self.initialize_auction_info_dict(url)
         self.auction_info = self.update_auction_info(name=auction_name)

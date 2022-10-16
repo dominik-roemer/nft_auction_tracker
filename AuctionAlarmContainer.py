@@ -6,8 +6,8 @@ import time
 import gspread
 
 
-GOOGLE_SHEETS_API_USER = "nft-auction-alarm@trusty-pipe-345519.iam.gserviceaccount.com"
-API_KEY = "trusty-pipe-345519-9f8ebaa98772.json"
+GOOGLE_SHEETS_API_USER = "...." # put your google sheets api username here
+API_KEY = "google_drive_api_key.json"
 REPEAT_TIMER = 10  # amount of minutes which the program waits before starting a new scraping
 
 
@@ -19,10 +19,10 @@ class AuctionAlarmContainer:
         self.interface_script = interface_script
         self.interface_data = self.read_interface_script(self.interface_script)
         self.email_server_info = {
-            'domain_name': 'smtp.gmail.com',
+            'domain_name': '....', # email domain like gmail
             'port': 465,  # 587 für TSL Verschlüsselung
-            'provider': 'nft_auction_alarm5000@gmail.com',
-            'password': 'bxFDBV,Kku@:EMAu'
+            'provider': '...', # your email address
+            'password': '...' # password for your email account
         }
         self.timer_start = self.set_timer()
         self.email_sent_assets = []  # keeps all the assets for which an email was already sent
