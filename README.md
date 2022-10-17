@@ -35,7 +35,8 @@ Where continue just tells the AAC to continue and the receiver is the mail to wh
 In this project the following technologies were used
 
  - **Webdriver for Google Chrome** - [Link](https://chromedriver.chromium.org/downloads)
- - **selenium** - For webscraping
+ - **selenium** - To automate navigating through the websites
+ - **beautiful soup** - for web scraping
  - **gspread** - Google Docs API
  - **smtplib** - To send emails
 
